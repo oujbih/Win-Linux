@@ -1,5 +1,0 @@
-Windows command     Unix command
-rmdir               rmdir
-rmdir /s            rm -r
-move                mv
-
