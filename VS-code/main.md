@@ -1,3 +1,4 @@
+# vs code rstudio shortcuts
 ## keybindings.json
 ```
 // Place your key bindings in this file to override the defaults
@@ -25,7 +26,9 @@
     }
 ]
 ```
-## settings.json 
+
+## settings.json 
+
 ```
 {   
     "python.pythonPath": "/usr/bin/python3",
