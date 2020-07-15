@@ -34,3 +34,9 @@ System Settings --> Keyboard layout, tab Layouts --> Options... Key(s) to change
 ```
 sudo apt-mark hold burpsuite 
 ```
+##  How do I shorten the current directory path shown on terminal?
+```
+vi .bashrc
+\w Change that to \W (upper case)
+```
+
