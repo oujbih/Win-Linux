@@ -16,3 +16,8 @@ create partition primary
 format fs=ntfs
 assign 
 ```
+
+## get ip of website
+```
+tracert + the URL
+```
