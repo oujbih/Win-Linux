@@ -4,7 +4,7 @@
 set -g mouse on
 ```
 
-## lag 
+## tmux: hangs and do not load, and do not respond to any option command 
 ```
 deleting /tmp/tmux-NNNNNNN
 ```
