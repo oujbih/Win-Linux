@@ -3,3 +3,8 @@
 # Make mouse useful in copy mode
 set -g mouse on
 ```
+
+## lag 
+```
+deleting /tmp/tmux-NNNNNNN
+```
