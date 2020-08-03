@@ -10,7 +10,7 @@ git remote add origin https://github.com/oujbih/hackthebox.git
 git push -f origin master
 ```
 
-## ssh github
+## ssh github from local pc 
 
 ```
 ssh-keygen -t rsa -b 4096 -C "abderahimoujbih@gmail.com" 
