@@ -50,4 +50,6 @@ vi .bashrc
 ## How do I create a permanent Bash alias?
 ```
 code ~/.bashrc
+alias htb='sudo openvpn OUJBIH.ovpn'
+#https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 ```
