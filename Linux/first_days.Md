@@ -47,3 +47,7 @@ vi .bashrc
 \w Change that to \W (upper case)
 ```
 
+## How do I create a permanent Bash alias?
+```
+code ~/.bashrc
+```
