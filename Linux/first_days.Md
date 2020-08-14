@@ -50,6 +50,11 @@ vi .bashrc
 ## How do I create a permanent Bash alias?
 ```
 code ~/.bashrc
-alias htb='sudo openvpn OUJBIH.ovpn'
+alias htbvpn='sudo openvpn ~/OUJBIH.ovpn;'
+alias main='tmux split-window -h;tmux split-window;tmux select-pane -t 0'
+alias ports='netstat -tulanp'
+alias tks='tmux kill-session --t'
+alias codealias='code ~/.bashrc'
 #https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
+https://thoughtbot.com/blog/a-tmux-crash-course ## very good
 ```
