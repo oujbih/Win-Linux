@@ -63,3 +63,9 @@ alias codealias='code ~/.bashrc'
 #https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 https://thoughtbot.com/blog/a-tmux-crash-course ## very good
 ```
+## mail client Mailspring
+```
+sudo apt install libsecret-1-dev
+sudo apt --fix-broken install
+mailspring
+```
