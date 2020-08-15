@@ -56,6 +56,7 @@ alias main2='tmux split-window -h;tmux split-window;tmux select-pane -t 0;tmux r
 alias main3='tmux split-window -h;tmux split-window;tmux select-pane -t 0;tmux rename-window main3'
 alias t1='tmux split-window -h'
 alias t2='tmux split-window'
+alias tk='tmux kill-window'
 alias ports='netstat -tulanp'
 alias tks='tmux kill-session --t'
 alias codealias='code ~/.bashrc'
