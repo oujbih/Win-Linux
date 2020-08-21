@@ -67,5 +67,6 @@ https://thoughtbot.com/blog/a-tmux-crash-course ## very good
 ```
 sudo apt install libsecret-1-dev
 sudo apt --fix-broken install
-mailspring
+mailspring 
+# Thunderbird
 ```
