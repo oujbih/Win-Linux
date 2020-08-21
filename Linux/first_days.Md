@@ -69,4 +69,5 @@ sudo apt install libsecret-1-dev
 sudo apt --fix-broken install
 mailspring 
 # Thunderbird
+# evolution
 ```
