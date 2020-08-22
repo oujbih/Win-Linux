@@ -71,3 +71,7 @@ mailspring
 # Thunderbird
 # evolution
 ```
+## full screen shortcut 
+```
+gnome-terminal --window --full-screen
+```
