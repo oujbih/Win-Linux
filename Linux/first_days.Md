@@ -89,4 +89,6 @@ apt-get update
 apt-get install oracle-java11-installer-local
 
 exit
+https://www.linuxuprising.com/2019/06/new-oracle-java-11-installer-for-ubuntu.html
+https://askubuntu.com/questions/1175624/how-can-i-remove-the-package-oracle-java11-installer-local
 ```
