@@ -43,3 +43,8 @@
 }
 
 ```
+
+## View mode 
+```
+If you want to disable Preview Mode all together, you can do so by setting "workbench.editor.enablePreview": false in your settings file. You can also use the "workbench.editor.enablePreviewFromQuickOpen" option to disable it only from the quick 
+```
