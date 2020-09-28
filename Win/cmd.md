@@ -21,3 +21,8 @@ assign
 ```
 tracert + the URL
 ```
+
+## whoami
+```
+$env:UserName
+```
