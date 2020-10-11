@@ -28,5 +28,6 @@ https://thoughtbot.com/blog/a-tmux-crash-course ## very good
 ```
 ## tmux not displaying bash prompt colors
 ```
+code ~/.tmux.conf
 set-option -g default-command bash
 ```
