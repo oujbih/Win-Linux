@@ -26,3 +26,7 @@ alias codealias='code ~/.bashrc'
 https://thoughtbot.com/blog/a-tmux-crash-course ## very good
 
 ```
+## tmux not displaying bash prompt colors
+```
+set-option -g default-command bash
+```
