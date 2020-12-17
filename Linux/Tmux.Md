@@ -31,3 +31,28 @@ https://thoughtbot.com/blog/a-tmux-crash-course ## very good
 code ~/.tmux.conf
 set-option -g default-command bash
 ```
+## copy paste 
+```
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-yank'
+
+# Other examples:
+# set -g @plugin 'github_username/plugin_name'
+# set -g @plugin 'git@github.com:user/plugin'
+# set -g @plugin 'git@bitbucket.com:user/plugin'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'
+
+To use the copy and paste using tmux-yank you need to:
+- Highlight the text with your mouse cursor
+- Press y
+- Paste to wherever you want
+
+Download tmux here: https://github.com/tmux/tmux/wiki
+Download tmux plugin manager here: https://github.com/tmux-plugins/tpm
+Download tmux-yank here: https://github.com/tmux-plugins/tmux-...
+
+```
