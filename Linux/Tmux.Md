@@ -22,6 +22,7 @@ alias tk='tmux kill-window'
 alias ports='netstat -tulanp'
 alias tks='tmux kill-session --t'
 alias codealias='code ~/.bashrc'
+alias android='bash /usr/local/android-studio/bin/studio.sh'
 #https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 https://thoughtbot.com/blog/a-tmux-crash-course ## very good
 
