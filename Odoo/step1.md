@@ -29,6 +29,11 @@ To fix it,in /etc/postgresql/9.5/main/pg_hba.conf change peer to md5:
 local all all peer md5
 
 sudo service postgresql restart
+
+# Could not execute command 'sassc'
+sudo apt install python3-libsass
+
+
 # Add 
 $ sudo apt install git
 $ git config --global user.name "Your full name"
