@@ -23,6 +23,13 @@ pip3 uninstall Werkzeug  # will uninstall earlier version
 pip3 install Werkzeug==0.11.15 # sudo
 
 # Add 
+nano /etc/postgresql/12/main/pg_hba.conf
+To fix it,in /etc/postgresql/9.5/main/pg_hba.conf change peer to md5:
+# "local" is for Unix domain socket connections only
+local all all peer md5
+
+sudo service postgresql restart
+# Add 
 $ sudo apt install git
 $ git config --global user.name "Your full name"
 $ git config --global user.email "xyz@odoo.com"
