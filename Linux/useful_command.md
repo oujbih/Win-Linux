@@ -15,3 +15,7 @@ linux  : nc -nlvp 5555 > CloudMe_1112.exe
 ```
 dig +short myip.opendns.com @resolver1.opendns.com
 ```
+## how to find large files on linux
+```
+find -type f -exec du -Sh {} + | sort -rh | head -n 5
+```
