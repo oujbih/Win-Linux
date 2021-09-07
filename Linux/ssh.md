@@ -12,4 +12,5 @@ scp -r /home/gtc/Documents/GTC/R/Dashboard_gasoil  atelier@192.168.1.250:/home/a
 ##  Port Forwarding in Linux
 ```
 ssh -f -N atelier@192.168.1.250 -L 5432:localhost:5432
+ssh -L 5432:localhost:5432 atelier@192.168.1.250
 ```
