@@ -122,12 +122,23 @@ LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
 
 # starship + gnome-terminal
 ```
+# starship
 https://starship.rs/
 eval "$(starship init bash)"
 
-
+# gnome-terminal
 https://draculatheme.com/gnome-terminal
 
 
+# reverse icon 
+gsettings reset org.gnome.desktop.interface icon-theme
+
+
+# gnome-tweaks
+sudo apt install gnome-tweaks
+
+
+
+https://www.youtube.com/watch?v=5b-xQkRWHjQ
 ```
 
