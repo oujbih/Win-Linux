@@ -120,3 +120,14 @@ sudo make install
 LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
 ```
 
+# starship + gnome-terminal
+```
+https://starship.rs/
+eval "$(starship init bash)"
+
+
+https://draculatheme.com/gnome-terminal
+
+
+```
+
