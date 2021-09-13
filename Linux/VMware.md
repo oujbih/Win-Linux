@@ -9,3 +9,8 @@ sudo vmware-modconfig --console --install-all
 https://askubuntu.com/questions/1096052/vmware-15-error-on-ubuntu-18-4-could-not-open-dev-vmmon-no-such-file-or-dire
 sudo vmware-modconfig --console --install-all
 ```
+
+# Keys
+```
+https://gist.github.com/williamgh2019/cc2ad94cc18cb930a0aab42ed8d39e6f#file-vmware-workstation-pro-16-license-keys-L9
+```
