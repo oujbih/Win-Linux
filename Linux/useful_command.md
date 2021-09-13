@@ -19,3 +19,9 @@ dig +short myip.opendns.com @resolver1.opendns.com
 ```
 find -type f -exec du -Sh {} + | sort -rh | head -n 5
 ```
+
+##   network-manager 
+```
+service network-manager restart
+```
+
