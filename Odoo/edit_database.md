@@ -3,7 +3,7 @@
 sudo -i -u postgres
 psql
 \l # show database
-\c name_database
+\c DDATELIER
 
 
 service postgresql status
