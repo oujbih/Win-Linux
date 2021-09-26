@@ -14,3 +14,9 @@ sudo vmware-modconfig --console --install-all
 ```
 https://gist.github.com/williamgh2019/cc2ad94cc18cb930a0aab42ed8d39e6f#file-vmware-workstation-pro-16-license-keys-L9
 ```
+
+
+# Unable to start VMWare Workstation after upgrade to 13.04
+```
+sudo vmware-modconfig --console --install-all
+```
