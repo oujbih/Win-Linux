@@ -1,4 +1,7 @@
-
+## Fix apt 
+```
+sudo add-apt-repository --remove http://ppa.launchpad.net/webupd8team/java/ubuntu
+```
 
 ## Watch
 ```
