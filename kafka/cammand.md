@@ -1,6 +1,6 @@
 # Listing the Topics available in Kafka:
 ```
-kafka-topics.sh --list --zookeeper localhost:2181
+kafka-topics.sh --list --bootstrap-server localhost:9092
 ```
 
 # Creating Topic 
@@ -14,7 +14,7 @@ kafka-topics.sh --create \
 
 # Sending data 
 ```
-kafka-console-producer.sh --broker-list localhost:9092 --topic GTC
+bin/kafka-console-producer.sh --topic GTC --bootstrap-server localhost:9092
 First message
 Second message
 
