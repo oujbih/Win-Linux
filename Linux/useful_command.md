@@ -21,6 +21,8 @@ dig +short myip.opendns.com @resolver1.opendns.com
 ## how to find large files on linux
 ```
 find -type f -exec du -Sh {} + | sort -rh | head -n 5
+
+ss -lptn | grep 8881
 ```
 
 ##   network-manager 
