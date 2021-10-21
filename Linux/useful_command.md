@@ -29,4 +29,7 @@ ss -lptn | grep 8881
 ```
 service network-manager restart
 ```
-
+## crontab run every 15 minutes between certain hours
+```
+*/15 7-19 * * * /path/script >/dev/null 2>&1
+```
