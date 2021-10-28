@@ -23,6 +23,7 @@ dig +short myip.opendns.com @resolver1.opendns.com
 find -type f -exec du -Sh {} + | sort -rh | head -n 5
 
 ss -lptn | grep 8881
+sudo netstat -plunt |grep postgres
 ```
 
 ##   network-manager 
