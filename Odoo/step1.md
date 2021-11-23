@@ -1,6 +1,8 @@
 # Install postgresql
 ```
 alias pycharm='bash /home/oujbih/Downloads/pycharm-community-2021.2.1/bin/pycharm.sh'
+
+kgx2-qaad-iiqm
 https://www.youtube.com/watch?v=DUJ4I7EKQnM&list=PLT3v18VYaHYV5u23IMGVZdXQ4s7aLGCPD&index=4
 - How to install Postgres
 sudo apt install postgresql
