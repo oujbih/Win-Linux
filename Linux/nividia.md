@@ -2,3 +2,6 @@ https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic
 
 # 1  trying 
 sudo apt install nvidia-prime
+
+# 2 
+https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/
