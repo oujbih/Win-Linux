@@ -5,3 +5,7 @@ sudo apt install nvidia-prime
 
 # 2 
 https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/
+
+
+# 3 
+sudo apt-get install firmware-linux
