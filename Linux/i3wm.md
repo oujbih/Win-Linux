@@ -12,3 +12,12 @@ sudo apt-get install x11-xserver-utils
 sudo apt install light
 
 ```
+
+
+
+# Change languge fr 
+```
+sudo apt-get install x11-xkb-utils
+setxkbmap fr
+echo "setxkbmap fr" >> ~/.bashrc
+```
