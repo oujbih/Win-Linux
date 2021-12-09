@@ -13,3 +13,8 @@ sudo apt-get install firmware-linux
 # 4
 sudo apt install linux-generic
 https://askubuntu.com/questions/1292278/nvidia-driver-is-installed-but-the-driver-is-not-loaded
+
+
+# 5 tmp fix 
+GRUB_DEFAULT="Advanced options for Ubuntu>Ubuntu, with Linux 5.11.0-40-generic"
+sudo -H gedit /etc/default/grub
