@@ -6,6 +6,11 @@ sudo apt-get install -y linux-firmware
 
 # manullay
 ```
+
+https://anduin.linuxfromscratch.org/sources/linux-firmware/i915/
+
+then 
+
 sudo cp skl_guc_49.0.1.bin /lib/firmware/i915/
 sudo cp bxt_guc_49.0.1.bin  /lib/firmware/i915/
 sudo cp kbl_guc_49.0.1.bin /lib/firmware/i915/
