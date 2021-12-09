@@ -9,3 +9,7 @@ https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-propriet
 
 # 3 
 sudo apt-get install firmware-linux
+
+# 4
+sudo apt install linux-generic
+https://askubuntu.com/questions/1292278/nvidia-driver-is-installed-but-the-driver-is-not-loaded
