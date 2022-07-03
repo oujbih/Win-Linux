@@ -3,6 +3,15 @@
 sudo add-apt-repository --remove http://ppa.launchpad.net/webupd8team/java/ubuntu
 ```
 
+## Create bootable USB 
+```
+sudo dd bs=4M if=/home/gtc/Documents/GTC/PC/ubuntu-20.04.3-desktop-amd64.iso of=/dev/sda1 status=progress oflag=sync
+https://vitux.com/ubuntu-bootable-usb-stick/
+```
+
+
+
+
 ## Watch
 ```
 watch -n 0.5 -d ls -la
