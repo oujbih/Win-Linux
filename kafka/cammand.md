@@ -20,9 +20,11 @@ bin/kafka-console-producer.sh --topic GTC --bootstrap-server localhost:9092
 First message
 Second message
 
+sudo docker exec -it broker kafka-console-producer  --topic gps --bootstrap-server localhost:9092  
 ```
 
 # read the data 
 ```
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic GTC --from-beginning
+sudo docker exec -it broker kafka-console-consumer  --topic gps --bootstrap-server localhost:9092 --from-beginning
 ```
